@@ -51,6 +51,8 @@ namespace CarSales.API
             app.UseCors(x => x.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
             app.UseHttpsRedirection();
             app.UseMvc();
+
+            SeedDatabaseData.SeedDBData(app); //initialize db
         }
     }
 }
