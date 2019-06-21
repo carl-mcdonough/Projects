@@ -3,6 +3,7 @@ import { Validators, FormGroup, FormControl, FormBuilder } from '@angular/forms'
 import { HttpClient } from '@angular/common/http';
 import { AlertifyService } from 'src/app/_services/alertify.service';
 import { NgForm } from '@angular/forms';
+import { environment } from 'src/environments/environment.prod';
 
 @Component({
   selector: 'app-vehicle-create',
@@ -11,7 +12,7 @@ import { NgForm } from '@angular/forms';
 })
 export class VehicleCreateComponent implements OnInit {
   @ViewChild('createForm') createForm: FormGroup;
-  baseUrl = 'http://localhost:5000/api/vehicles/';
+  baseUrl = environment.apiUrl + 'vehicles/';
   data: any = {};
   vehicletypes: any;
   vehiclemakes: any;
