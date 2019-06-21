@@ -1,0 +1,365 @@
+{
+	"id": "98a67ccb-5440-43d3-a7cc-81e544c4a5b5",
+	"name": "Testing the Car Sales API",
+	"allTests": [],
+	"timestamp": "2019-06-21T05:36:50.323Z",
+	"collection_id": "bc670ba8-cad6-4c4b-8d29-6c47e1804a13",
+	"folder_id": 0,
+	"target_type": "collection",
+	"environment_id": "0",
+	"data": [],
+	"delay": 0,
+	"count": 1,
+	"collection": {
+		"id": "bc670ba8-cad6-4c4b-8d29-6c47e1804a13",
+		"name": "Testing the Car Sales API",
+		"description": "Get vehicle types",
+		"auth": null,
+		"events": null,
+		"variables": [],
+		"order": [
+			"4ae701e8-1692-454d-aed2-c7fabbae30af",
+			"834976a7-8b30-44ec-a1b5-82f9a2297060",
+			"c7c14af0-66aa-42cb-818d-e7793a5c6e7e",
+			"4dc6f266-aec0-49fa-b91d-bcb5d76fbf55",
+			"60b1078e-04c4-4935-b284-b6b6c8ea072e"
+		],
+		"folders_order": [],
+		"owner": "7701847",
+		"favorite": false,
+		"type": "collection",
+		"depth": 0
+	},
+	"folder": null,
+	"environment": null,
+	"globals": [],
+	"results": [
+		{
+			"name": "http://localhost:5000/api/vehicles",
+			"id": "4ae701e8-1692-454d-aed2-c7fabbae30af",
+			"url": "http://localhost:5000/api/vehicles",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status Code is correct": true,
+				"Response time is less than 2000ms": true
+			},
+			"testPassFailCounts": {
+				"Status Code is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 2000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"22"
+			],
+			"allTests": [
+				{
+					"Status Code is correct": true,
+					"Response time is less than 2000ms": true
+				}
+			],
+			"time": "22",
+			"totalRequestTime": "22",
+			"iterationResults": {}
+		},
+		{
+			"name": "http://localhost:5000/api/vehicles/vehiclemakes/1",
+			"id": "834976a7-8b30-44ec-a1b5-82f9a2297060",
+			"url": "http://localhost:5000/api/vehicles/vehiclemakes/1",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status Code is correct": true,
+				"Response time is less than 2000ms": true
+			},
+			"testPassFailCounts": {
+				"Status Code is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 2000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"12"
+			],
+			"allTests": [
+				{
+					"Status Code is correct": true,
+					"Response time is less than 2000ms": true
+				}
+			],
+			"time": "12",
+			"totalRequestTime": "12",
+			"iterationResults": {}
+		},
+		{
+			"name": "http://localhost:5000/api/vehicles/vehiclemodels/3",
+			"id": "c7c14af0-66aa-42cb-818d-e7793a5c6e7e",
+			"url": "http://localhost:5000/api/vehicles/vehiclemodels/3",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status Code is correct": true,
+				"Response time is less than 2000ms": true
+			},
+			"testPassFailCounts": {
+				"Status Code is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 2000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"15"
+			],
+			"allTests": [
+				{
+					"Status Code is correct": true,
+					"Response time is less than 2000ms": true
+				}
+			],
+			"time": "15",
+			"totalRequestTime": "15",
+			"iterationResults": {}
+		},
+		{
+			"name": "http://localhost:5000/api/vehicles/vehiclebodytypes/5",
+			"id": "4dc6f266-aec0-49fa-b91d-bcb5d76fbf55",
+			"url": "http://localhost:5000/api/vehicles/vehiclebodytypes/5",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status Code is correct": true,
+				"Response time is less than 2000ms": true
+			},
+			"testPassFailCounts": {
+				"Status Code is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 2000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"18"
+			],
+			"allTests": [
+				{
+					"Status Code is correct": true,
+					"Response time is less than 2000ms": true
+				}
+			],
+			"time": "18",
+			"totalRequestTime": "18",
+			"iterationResults": {}
+		},
+		{
+			"name": "http://localhost:5000/api/vehicles",
+			"id": "60b1078e-04c4-4935-b284-b6b6c8ea072e",
+			"url": "http://localhost:5000/api/vehicles/addvehicle",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status Code is correct": true,
+				"Response time is less than 2000ms": true
+			},
+			"testPassFailCounts": {
+				"Status Code is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 2000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"13"
+			],
+			"allTests": [
+				{
+					"Status Code is correct": true,
+					"Response time is less than 2000ms": true
+				}
+			],
+			"time": "13",
+			"totalRequestTime": "13",
+			"iterationResults": {}
+		}
+	],
+	"totalPass": 10,
+	"totalFail": 0,
+	"totalTime": 80,
+	"lifecycle": "done",
+	"requests": [
+		{
+			"name": "http://localhost:5000/api/vehicles",
+			"id": "4ae701e8-1692-454d-aed2-c7fabbae30af",
+			"url": "http://localhost:5000/api/vehicles",
+			"time": "2019-06-21T05:36:50.323Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status Code is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 2000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "http://localhost:5000/api/vehicles/vehiclemakes/1",
+			"id": "834976a7-8b30-44ec-a1b5-82f9a2297060",
+			"url": "http://localhost:5000/api/vehicles/vehiclemakes/1",
+			"time": "2019-06-21T05:36:50.323Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status Code is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 2000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "http://localhost:5000/api/vehicles/vehiclemodels/3",
+			"id": "c7c14af0-66aa-42cb-818d-e7793a5c6e7e",
+			"url": "http://localhost:5000/api/vehicles/vehiclemodels/3",
+			"time": "2019-06-21T05:36:50.323Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status Code is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 2000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "http://localhost:5000/api/vehicles/vehiclebodytypes/5",
+			"id": "4dc6f266-aec0-49fa-b91d-bcb5d76fbf55",
+			"url": "http://localhost:5000/api/vehicles/vehiclebodytypes/5",
+			"time": "2019-06-21T05:36:50.323Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status Code is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 2000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "http://localhost:5000/api/vehicles",
+			"id": "60b1078e-04c4-4935-b284-b6b6c8ea072e",
+			"url": "http://localhost:5000/api/vehicles/addvehicle",
+			"time": "2019-06-21T05:36:50.323Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status Code is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 2000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		}
+	],
+	"synced": false
+}
