@@ -1,0 +1,14 @@
+C:\Users\David\Documents\Applications\Projects\CarSales.API\bin\Debug\netcoreapp2.2\CarSales.API.deps.json
+C:\Users\David\Documents\Applications\Projects\CarSales.API\bin\Debug\netcoreapp2.2\CarSales.API.runtimeconfig.json
+C:\Users\David\Documents\Applications\Projects\CarSales.API\bin\Debug\netcoreapp2.2\CarSales.API.runtimeconfig.dev.json
+C:\Users\David\Documents\Applications\Projects\CarSales.API\bin\Debug\netcoreapp2.2\CarSales.API.dll
+C:\Users\David\Documents\Applications\Projects\CarSales.API\bin\Debug\netcoreapp2.2\CarSales.API.pdb
+C:\Users\David\Documents\Applications\Projects\CarSales.API\obj\Debug\netcoreapp2.2\CarSales.API.csprojAssemblyReference.cache
+C:\Users\David\Documents\Applications\Projects\CarSales.API\obj\Debug\netcoreapp2.2\CarSales.API.csproj.CoreCompileInputs.cache
+C:\Users\David\Documents\Applications\Projects\CarSales.API\obj\Debug\netcoreapp2.2\CarSales.API.RazorAssemblyInfo.cache
+C:\Users\David\Documents\Applications\Projects\CarSales.API\obj\Debug\netcoreapp2.2\CarSales.API.RazorAssemblyInfo.cs
+C:\Users\David\Documents\Applications\Projects\CarSales.API\obj\Debug\netcoreapp2.2\CarSales.API.AssemblyInfoInputs.cache
+C:\Users\David\Documents\Applications\Projects\CarSales.API\obj\Debug\netcoreapp2.2\CarSales.API.AssemblyInfo.cs
+C:\Users\David\Documents\Applications\Projects\CarSales.API\obj\Debug\netcoreapp2.2\CarSales.API.RazorTargetAssemblyInfo.cache
+C:\Users\David\Documents\Applications\Projects\CarSales.API\obj\Debug\netcoreapp2.2\CarSales.API.dll
+C:\Users\David\Documents\Applications\Projects\CarSales.API\obj\Debug\netcoreapp2.2\CarSales.API.pdb
